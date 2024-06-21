@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9513FB322C26240900FB762E /* SuperMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513FB312C26240900FB762E /* SuperMeApp.swift */; };
+		9513FB342C26240900FB762E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513FB332C26240900FB762E /* ContentView.swift */; };
+		9513FB362C26240900FB762E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513FB352C26240900FB762E /* Item.swift */; };
+		9513FB382C26240B00FB762E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9513FB372C26240B00FB762E /* Assets.xcassets */; };
+		9513FB3B2C26240B00FB762E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9513FB3A2C26240B00FB762E /* Preview Assets.xcassets */; };
+		9513FB462C26240B00FB762E /* SuperMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513FB452C26240B00FB762E /* SuperMeTests.swift */; };
+		9513FB502C26240B00FB762E /* SuperMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513FB4F2C26240B00FB762E /* SuperMeUITests.swift */; };
+		9513FB522C26240B00FB762E /* SuperMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513FB512C26240B00FB762E /* SuperMeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9513FB422C26240B00FB762E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9513FB262C26240900FB762E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9513FB2D2C26240900FB762E;
+			remoteInfo = SuperMe;
+		};
+		9513FB4C2C26240B00FB762E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9513FB262C26240900FB762E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9513FB2D2C26240900FB762E;
+			remoteInfo = SuperMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9513FB2E2C26240900FB762E /* SuperMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9513FB312C26240900FB762E /* SuperMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMeApp.swift; sourceTree = "<group>"; };
+		9513FB332C26240900FB762E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9513FB352C26240900FB762E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9513FB372C26240B00FB762E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9513FB3A2C26240B00FB762E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9513FB3C2C26240B00FB762E /* SuperMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuperMe.entitlements; sourceTree = "<group>"; };
+		9513FB412C26240B00FB762E /* SuperMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9513FB452C26240B00FB762E /* SuperMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMeTests.swift; sourceTree = "<group>"; };
+		9513FB4B2C26240B00FB762E /* SuperMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9513FB4F2C26240B00FB762E /* SuperMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMeUITests.swift; sourceTree = "<group>"; };
+		9513FB512C26240B00FB762E /* SuperMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9513FB2B2C26240900FB762E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9513FB3E2C26240B00FB762E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9513FB482C26240B00FB762E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9513FB252C26240900FB762E = {
+			isa = PBXGroup;
+			children = (
+				9513FB302C26240900FB762E /* SuperMe */,
+				9513FB442C26240B00FB762E /* SuperMeTests */,
+				9513FB4E2C26240B00FB762E /* SuperMeUITests */,
+				9513FB2F2C26240900FB762E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9513FB2F2C26240900FB762E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9513FB2E2C26240900FB762E /* SuperMe.app */,
+				9513FB412C26240B00FB762E /* SuperMeTests.xctest */,
+				9513FB4B2C26240B00FB762E /* SuperMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9513FB302C26240900FB762E /* SuperMe */ = {
+			isa = PBXGroup;
+			children = (
+				9513FB312C26240900FB762E /* SuperMeApp.swift */,
+				9513FB332C26240900FB762E /* ContentView.swift */,
+				9513FB352C26240900FB762E /* Item.swift */,
+				9513FB372C26240B00FB762E /* Assets.xcassets */,
+				9513FB3C2C26240B00FB762E /* SuperMe.entitlements */,
+				9513FB392C26240B00FB762E /* Preview Content */,
+			);
+			path = SuperMe;
+			sourceTree = "<group>";
+		};
+		9513FB392C26240B00FB762E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9513FB3A2C26240B00FB762E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9513FB442C26240B00FB762E /* SuperMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9513FB452C26240B00FB762E /* SuperMeTests.swift */,
+			);
+			path = SuperMeTests;
+			sourceTree = "<group>";
+		};
+		9513FB4E2C26240B00FB762E /* SuperMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9513FB4F2C26240B00FB762E /* SuperMeUITests.swift */,
+				9513FB512C26240B00FB762E /* SuperMeUITestsLaunchTests.swift */,
+			);
+			path = SuperMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9513FB2D2C26240900FB762E /* SuperMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9513FB552C26240B00FB762E /* Build configuration list for PBXNativeTarget "SuperMe" */;
+			buildPhases = (
+				9513FB2A2C26240900FB762E /* Sources */,
+				9513FB2B2C26240900FB762E /* Frameworks */,
+				9513FB2C2C26240900FB762E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMe;
+			productName = SuperMe;
+			productReference = 9513FB2E2C26240900FB762E /* SuperMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9513FB402C26240B00FB762E /* SuperMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9513FB582C26240B00FB762E /* Build configuration list for PBXNativeTarget "SuperMeTests" */;
+			buildPhases = (
+				9513FB3D2C26240B00FB762E /* Sources */,
+				9513FB3E2C26240B00FB762E /* Frameworks */,
+				9513FB3F2C26240B00FB762E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9513FB432C26240B00FB762E /* PBXTargetDependency */,
+			);
+			name = SuperMeTests;
+			productName = SuperMeTests;
+			productReference = 9513FB412C26240B00FB762E /* SuperMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9513FB4A2C26240B00FB762E /* SuperMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9513FB5B2C26240B00FB762E /* Build configuration list for PBXNativeTarget "SuperMeUITests" */;
+			buildPhases = (
+				9513FB472C26240B00FB762E /* Sources */,
+				9513FB482C26240B00FB762E /* Frameworks */,
+				9513FB492C26240B00FB762E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9513FB4D2C26240B00FB762E /* PBXTargetDependency */,
+			);
+			name = SuperMeUITests;
+			productName = SuperMeUITests;
+			productReference = 9513FB4B2C26240B00FB762E /* SuperMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9513FB262C26240900FB762E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9513FB2D2C26240900FB762E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9513FB402C26240B00FB762E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9513FB2D2C26240900FB762E;
+					};
+					9513FB4A2C26240B00FB762E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9513FB2D2C26240900FB762E;
+					};
+				};
+			};
+			buildConfigurationList = 9513FB292C26240900FB762E /* Build configuration list for PBXProject "SuperMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9513FB252C26240900FB762E;
+			productRefGroup = 9513FB2F2C26240900FB762E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9513FB2D2C26240900FB762E /* SuperMe */,
+				9513FB402C26240B00FB762E /* SuperMeTests */,
+				9513FB4A2C26240B00FB762E /* SuperMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9513FB2C2C26240900FB762E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9513FB3B2C26240B00FB762E /* Preview Assets.xcassets in Resources */,
+				9513FB382C26240B00FB762E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9513FB3F2C26240B00FB762E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9513FB492C26240B00FB762E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9513FB2A2C26240900FB762E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9513FB342C26240900FB762E /* ContentView.swift in Sources */,
+				9513FB362C26240900FB762E /* Item.swift in Sources */,
+				9513FB322C26240900FB762E /* SuperMeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9513FB3D2C26240B00FB762E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9513FB462C26240B00FB762E /* SuperMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9513FB472C26240B00FB762E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9513FB522C26240B00FB762E /* SuperMeUITestsLaunchTests.swift in Sources */,
+				9513FB502C26240B00FB762E /* SuperMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9513FB432C26240B00FB762E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9513FB2D2C26240900FB762E /* SuperMe */;
+			targetProxy = 9513FB422C26240B00FB762E /* PBXContainerItemProxy */;
+		};
+		9513FB4D2C26240B00FB762E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9513FB2D2C26240900FB762E /* SuperMe */;
+			targetProxy = 9513FB4C2C26240B00FB762E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9513FB532C26240B00FB762E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9513FB542C26240B00FB762E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9513FB562C26240B00FB762E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SuperMe/SuperMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk4ne.SuperMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9513FB572C26240B00FB762E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SuperMe/SuperMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk4ne.SuperMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9513FB592C26240B00FB762E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk4ne.SuperMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperMe";
+			};
+			name = Debug;
+		};
+		9513FB5A2C26240B00FB762E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk4ne.SuperMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperMe";
+			};
+			name = Release;
+		};
+		9513FB5C2C26240B00FB762E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk4ne.SuperMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SuperMe;
+			};
+			name = Debug;
+		};
+		9513FB5D2C26240B00FB762E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk4ne.SuperMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SuperMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9513FB292C26240900FB762E /* Build configuration list for PBXProject "SuperMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9513FB532C26240B00FB762E /* Debug */,
+				9513FB542C26240B00FB762E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9513FB552C26240B00FB762E /* Build configuration list for PBXNativeTarget "SuperMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9513FB562C26240B00FB762E /* Debug */,
+				9513FB572C26240B00FB762E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9513FB582C26240B00FB762E /* Build configuration list for PBXNativeTarget "SuperMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9513FB592C26240B00FB762E /* Debug */,
+				9513FB5A2C26240B00FB762E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9513FB5B2C26240B00FB762E /* Build configuration list for PBXNativeTarget "SuperMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9513FB5C2C26240B00FB762E /* Debug */,
+				9513FB5D2C26240B00FB762E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9513FB262C26240900FB762E /* Project object */;
+}
